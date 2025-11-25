@@ -3,7 +3,7 @@ Hello Traders, this game is perfect if you are interested in a career in Market-
 This style of market-making exercise is commonly used in interviews and internship assessments at a range of trading and financial firms. It helps test numerical intuition, speed, and an ability to manage risk while making two-way prices.
 
 **How the Game Works:**
-ou act as a market-maker in a simple pricing game. There are several hidden cards, each containing a random number within a known range (for example, 1–9). The total of all cards represents the fair value of the market. Before any cards are revealed, each unseen card is assumed to be worth its expected value, so you can estimate the overall theoretical fair price at every stage of the game.
+You act as a market-maker in a simple pricing game. There are several hidden cards, each containing a random number within a known range (for example, 1–9). The total of all cards represents the fair value of the market. Before any cards are revealed, each unseen card is assumed to be worth its expected value, so you can estimate the overall theoretical fair price at every stage of the game.
 
 As the game progresses, cards are turned over one by one. Each reveal gives you new information and changes the fair value. Your job is to:
 
@@ -82,6 +82,7 @@ Offer = 20 → offer − EV = 0
 
 Here, EV − bid > offer − EV, which matches the rule for being long:
 the offer (20) is closer to EV than the bid (19), so players are more likely to buy from you at 20 than to sell to you at 19.
+
 If you instead quoted 20–21, Bid = 20, Offer = 21 EV − bid = 0, offer − EV = 1. Now your bid is closer to EV than your offer, which is the behaviour of a short position (you’d be encouraging people to sell to you, which is the opposite of what you want when you’re long).
 
 
